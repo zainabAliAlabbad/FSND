@@ -36,8 +36,7 @@ class TriviaTestCase(unittest.TestCase):
         pass
 
 
-""" TODO: Write at least one test for each test for successful operation and for expected errors. """
-
+# Test ----------------------------------------------------------------------------------------------------- #
     def test_get_paginated_questions(self):
         res = self.client().get('/questions')
         data = json.loads(res.data)
@@ -93,7 +92,7 @@ class TriviaTestCase(unittest.TestCase):
         pass
 
 
- def test_search(self):
+    def test_search(self):
         request_data = {'searchTerm': 'what'}
         res = self.client().post('/search', json=request_data)
         data = json.loads(res.data)

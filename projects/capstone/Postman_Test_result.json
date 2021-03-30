@@ -1,0 +1,762 @@
+{
+	"id": "cb39696b-31df-4fca-9fb1-2a208800e916",
+	"name": "Capstone",
+	"timestamp": "2021-02-19T23:22:14.154Z",
+	"collection_id": "da4bf911-734a-446d-8150-f059ad3d7779",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 24,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "475caf9c-8686-44b4-8152-39fa7b28b33d",
+			"name": "GET-Movie",
+			"url": "https://movieagencies.herokuapp.com/movies",
+			"time": 344,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				344
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "dcdcdfab-bbec-4c05-b71d-58177b6b7bcb",
+			"name": "POST-Movie",
+			"url": "https://movieagencies.herokuapp.com/movies",
+			"time": 299,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				299
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b0ad35b2-a769-4863-b80a-6da74ec04075",
+			"name": "PATCH-Movie",
+			"url": "https://movieagencies.herokuapp.com/movies/1",
+			"time": 300,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				300
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9fcc2636-702b-4158-83b9-af70c2d6fef7",
+			"name": "DELETE-Movie",
+			"url": "https://movieagencies.herokuapp.com/movies/1",
+			"time": 281,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f4de827e-92fc-48a4-80b9-4b676681dc24",
+			"name": "GET-Actor",
+			"url": "https://movieagencies.herokuapp.com/actors",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2ceb2e1c-1221-447d-a0cb-6af5d41bc0fe",
+			"name": "POST-Actor",
+			"url": "https://movieagencies.herokuapp.com/actors",
+			"time": 295,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				295
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bfce3ecb-ae22-4f07-a409-05a4e08124ba",
+			"name": "PATCH-Actor",
+			"url": "https://movieagencies.herokuapp.com/actors/1",
+			"time": 307,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				307
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cc1cb0e3-61ce-421e-be56-fcbc547b9159",
+			"name": "DELETE-Actor",
+			"url": "https://movieagencies.herokuapp.com/actors/1",
+			"time": 407,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				407
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4d6ba8f6-d9ec-40f5-8298-c1195042e218",
+			"name": "GET-Movie",
+			"url": "https://movieagencies.herokuapp.com/movies",
+			"time": 271,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				271
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c6c1dc9a-5554-439e-90e2-bf2933d025e3",
+			"name": "POST-Movie",
+			"url": "https://movieagencies.herokuapp.com/movies",
+			"time": 304,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				304
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "2694696a-bde6-4666-97ff-973cb194f44e",
+			"name": "PATCH-Movie",
+			"url": "https://movieagencies.herokuapp.com/movies/2",
+			"time": 277,
+			"responseCode": {
+				"code": 404,
+				"name": "NOT FOUND"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				277
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "1f2d88e4-0b89-4f94-addf-96fb035f2235",
+			"name": "DELETE-Movie",
+			"url": "https://movieagencies.herokuapp.com/movies/2",
+			"time": 264,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				264
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "b4c4764b-d1ad-40c2-9ce2-ded8907daf31",
+			"name": "GET-Actor",
+			"url": "https://movieagencies.herokuapp.com/actors",
+			"time": 290,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				290
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7f92649e-ca51-47a2-a63d-112c6484a135",
+			"name": "POST-Actor",
+			"url": "https://movieagencies.herokuapp.com/actors",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3d63964f-639d-4cf3-915d-24e5b069b1b5",
+			"name": "PATCH-Actor",
+			"url": "https://movieagencies.herokuapp.com/actors/2",
+			"time": 297,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				297
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e196a28b-f22e-4ff6-bdd5-3ac338ea733d",
+			"name": "DELETE-Actor",
+			"url": "https://movieagencies.herokuapp.com/actors/2",
+			"time": 293,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				293
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b863b3f7-da92-433a-a85d-4a7ddc17b51d",
+			"name": "GET-Movie",
+			"url": "https://movieagencies.herokuapp.com/movies",
+			"time": 299,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				299
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ad06a608-e2a0-4cb9-bcba-980abde8c8e0",
+			"name": "POST-Movie",
+			"url": "https://movieagencies.herokuapp.com/movies",
+			"time": 276,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				276
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "52ba3fc8-468a-4dc7-80aa-b47398e1cb63",
+			"name": "PATCH-Movie",
+			"url": "https://movieagencies.herokuapp.com/movies/3",
+			"time": 284,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "fbf9457e-dd47-4c56-bbfd-685390182205",
+			"name": "DELETE-Movie",
+			"url": "https://movieagencies.herokuapp.com/movies/3",
+			"time": 267,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				267
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "727696f1-f311-4fd5-8101-0cdd1211e6e3",
+			"name": "GET-Actor",
+			"url": "https://movieagencies.herokuapp.com/actors",
+			"time": 313,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				313
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7d9d779e-72da-486b-ae14-d3f79834c2ee",
+			"name": "POST-Actor",
+			"url": "https://movieagencies.herokuapp.com/actors",
+			"time": 270,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				270
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "9a4f5661-7a0c-417a-ad23-4c1afc9672a9",
+			"name": "PATCH-Actor",
+			"url": "https://movieagencies.herokuapp.com/actors/3",
+			"time": 279,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "018911c5-0f41-43bf-9dcd-fa289739cfbb",
+			"name": "DELETE-Actor",
+			"url": "https://movieagencies.herokuapp.com/actors/3",
+			"time": 291,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				291
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 7071,
+	"collection": {
+		"requests": [
+			{
+				"id": "475caf9c-8686-44b4-8152-39fa7b28b33d",
+				"method": "GET"
+			},
+			{
+				"id": "dcdcdfab-bbec-4c05-b71d-58177b6b7bcb",
+				"method": "POST"
+			},
+			{
+				"id": "b0ad35b2-a769-4863-b80a-6da74ec04075",
+				"method": "PATCH"
+			},
+			{
+				"id": "9fcc2636-702b-4158-83b9-af70c2d6fef7",
+				"method": "DELETE"
+			},
+			{
+				"id": "f4de827e-92fc-48a4-80b9-4b676681dc24",
+				"method": "GET"
+			},
+			{
+				"id": "2ceb2e1c-1221-447d-a0cb-6af5d41bc0fe",
+				"method": "POST"
+			},
+			{
+				"id": "bfce3ecb-ae22-4f07-a409-05a4e08124ba",
+				"method": "PATCH"
+			},
+			{
+				"id": "cc1cb0e3-61ce-421e-be56-fcbc547b9159",
+				"method": "DELETE"
+			},
+			{
+				"id": "4d6ba8f6-d9ec-40f5-8298-c1195042e218",
+				"method": "GET"
+			},
+			{
+				"id": "c6c1dc9a-5554-439e-90e2-bf2933d025e3",
+				"method": "POST"
+			},
+			{
+				"id": "2694696a-bde6-4666-97ff-973cb194f44e",
+				"method": "PATCH"
+			},
+			{
+				"id": "1f2d88e4-0b89-4f94-addf-96fb035f2235",
+				"method": "DELETE"
+			},
+			{
+				"id": "b4c4764b-d1ad-40c2-9ce2-ded8907daf31",
+				"method": "GET"
+			},
+			{
+				"id": "7f92649e-ca51-47a2-a63d-112c6484a135",
+				"method": "POST"
+			},
+			{
+				"id": "3d63964f-639d-4cf3-915d-24e5b069b1b5",
+				"method": "PATCH"
+			},
+			{
+				"id": "e196a28b-f22e-4ff6-bdd5-3ac338ea733d",
+				"method": "DELETE"
+			},
+			{
+				"id": "b863b3f7-da92-433a-a85d-4a7ddc17b51d",
+				"method": "GET"
+			},
+			{
+				"id": "ad06a608-e2a0-4cb9-bcba-980abde8c8e0",
+				"method": "POST"
+			},
+			{
+				"id": "52ba3fc8-468a-4dc7-80aa-b47398e1cb63",
+				"method": "PATCH"
+			},
+			{
+				"id": "fbf9457e-dd47-4c56-bbfd-685390182205",
+				"method": "DELETE"
+			},
+			{
+				"id": "727696f1-f311-4fd5-8101-0cdd1211e6e3",
+				"method": "GET"
+			},
+			{
+				"id": "7d9d779e-72da-486b-ae14-d3f79834c2ee",
+				"method": "POST"
+			},
+			{
+				"id": "9a4f5661-7a0c-417a-ad23-4c1afc9672a9",
+				"method": "PATCH"
+			},
+			{
+				"id": "018911c5-0f41-43bf-9dcd-fa289739cfbb",
+				"method": "DELETE"
+			}
+		]
+	}
+}
