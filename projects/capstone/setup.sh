@@ -5,4 +5,4 @@ export AUTH0_DOMAIN='zain00.us.auth0.com'
 export API_AUDIENCE='capastoneAPI'
 export ALGORITHMS=['RS256']
 export CLIENT_ID='sJTVKOiIt506HkrJhaQM60dzzGnHolkX'
-export DATABASE_URL='postgresql://ypgbozimookkky:ffafc5535389b50429c888ca99959c802e5f5ca2ffe10255ca6ce5eef199438f@ec2-3-87-180-131.compute-1.amazonaws.com:5432/df300nbstbk47k'
+export DATABASE_URL='postgresql://postgres:A1b2c3d4@localhost:5432/capstone-project'
