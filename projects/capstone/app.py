@@ -22,7 +22,7 @@ def after_request(response):
 
 @app.route('/')
 def index():
-    return  return "Hello World"
+    return "Hello World"
 
 @app.route('/actors')
 @requires_auth('get:actors')
